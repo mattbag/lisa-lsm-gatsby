@@ -7,7 +7,7 @@ import pic from '../assets/images/made-in-italy.jpg'
 const Page404 = (props) => {
     // console.log(props);
     
-    if (location) location.href = '/'
+    // if (location) location.href = '/'
 
     return (
     <div>
