@@ -1,5 +1,6 @@
 import React from 'react'
-
+import Link from 'gatsby-link'
+import logo from './../assets/images/logo lsm maglificio.jpg'
 const Contact = (props) => (
     <section id="contact">
         <div className="inner" style={{maxWidth:`50em`}}>
@@ -32,7 +33,7 @@ const Contact = (props) => (
                        
                     </div>
                 </section>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45306.13172204353!2d10.817475573536214!3d44.788282116394605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477f8ccf6205628b%3A0x7f3eabae2cc86add!2sMaglificio+LSM!5e0!3m2!1sit!2sau!4v1516487140565" width="600" height="450" frameBorder="0" style={{border:0,maxWidth:`100%`}} allowFullScreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45306.13172204353!2d10.817475573536214!3d44.788282116394605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477f8ccf6205628b%3A0x7f3eabae2cc86add!2sMaglificio+LSM!5e0!3m2!1sit!2sau!4v1516487140565" width="600" height="450" frameBorder="0" style={{border:0,maxWidth:`100%`,width:`100%`}} allowFullScreen></iframe>
             </section>
             <section className="split">
                 <section>
@@ -55,16 +56,11 @@ const Contact = (props) => (
                          
                     </div>
                 </section>
-                {/* <section>
-                    <div className="contact-method">
-                        <span className="icon alt fa-home"></span>
-                        <h3>Indirizzo</h3>
-                        <span>Sede Operativa: Viale dell'Agricoltura, 21 Carpi (MO)</span>
-                        <br/>
-                        <span>Sede Legale: Via Meloni di Quartirolo, 6 Carpi (MO)</span>
-                       
-                    </div>
-                </section> */}
+                <section>
+
+                       <Link to="/" style={{textDecoration:`none`}}><img src={logo} width="160"/></Link>
+
+                </section>
             </section>
         </div>
     </section>
