@@ -91,12 +91,14 @@ I nostri prodotti sono tutti rigorosamente Made in Italy.
                     <section id="two">
                         <div className="inner" style={{maxWidth:`40rem`}}>
                             <header className="major">
-                                <h2>Pitti</h2>
+                                <h2>Storia</h2>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-                            <ul className="actions">
+<p>Collezioni all’insegna di femminilità ed eleganza, stile e raffinatezza, attenzione e cura per i dettagli, ricercatezza di materiali, stampe e ricami. Questo è il maglificio LSM.</p>
+<p>
+Nato nel 1986 a Carpi, il distretto italiano da sempre tra i più prolifici per qualità, creatività ed intraprendenza, gestito da un team giovane che da’ un’impronta ambiziosa e rivolta al futuro e che basa le sue fondamenta su un concept unico ed originale di stile e ricercatezza fondate sul Made in Italy. Ogni singolo capo nasce da una cura artigianale inimitabile, caratterizzata dalla scelta di filati nobili e dalla capacità di trasformarli grazie ad un grande know how tecnologico. Le infinite potenzialità della maglia vengono quindi sviluppate con uno stile che segue le ultime tendenze, insieme ad una solida organizzazione produttiva nel pieno rispetto dell’artigianalità e territorialità del prodotto.</p>
+                            {/* <ul className="actions">
                                 <li><Link to="/landing" className="button next">Come along</Link></li>
-                            </ul>
+                            </ul> */}
                         </div>
                     </section>
                 </div>

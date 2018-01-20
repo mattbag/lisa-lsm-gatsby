@@ -17,7 +17,7 @@
 			@include vendor('display', 'flex');
 			@include vendor('flex-direction', 'row');
 			padding-bottom: 2vh;
-			padding-top: 5vh;
+			padding-top: 8vh;
 			// background-color: desaturate(lighten(_palette(bg-alt), 2), 1);
 
 			> .image {
