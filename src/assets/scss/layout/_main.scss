@@ -6,21 +6,28 @@
 
 /* Main */
 
-	#main {
-		// background-color: _palette(bg-alt);
+#main {
+  // background-color: _palette(bg-alt);
+  opacity: 0;
+  animation: loading 2s 2s forwards;
+  // @include vendor('filter', 'blur(0.125em)');
+  // @include vendor('transform', 'translateX(-0.5em)');
+  // opacity: 0;
+  >* {
+    border-top: solid 1px _palette(border);
+    &:first-child {
+      border-top: 0;
+    }
+    @include inner;
+  }
+  &.alt {
+    background-color: transparent;
+    border-bottom: solid 1px _palette(border);
+  }
+}
 
-		> * {
-			border-top: solid 1px _palette(border);
-
-			&:first-child {
-				border-top: 0;
-			}
-
-			@include inner;
-		}
-
-		&.alt {
-			background-color: transparent;
-			border-bottom: solid 1px _palette(border);
-		}
-	}
+@keyframes loading {
+  to {
+    opacity: 1
+  }
+}
