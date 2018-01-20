@@ -24,7 +24,7 @@ class HomeIndex extends React.Component {
 
                 <Banner />
 
-                <div id="main">
+                <div id="main" style={{maxWidth:`100rem`,margin:`0 auto`}}>
                 <section id="two" className="spotlights">
                 <section>
                 {/* <Link to="/generic" className="image" style={{backgroundImage: `url(${pic01})`}}> */}
