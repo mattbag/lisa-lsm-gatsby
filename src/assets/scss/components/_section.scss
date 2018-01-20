@@ -14,23 +14,23 @@
 
 	header {
 		&.major {
-			width: -moz-max-content;
-			width: -webkit-max-content;
-			width: -ms-max-content;
-			width: max-content;
+			// width: -moz-max-content;
+			// width: -webkit-max-content;
+			// width: -ms-max-content;
+			// width: max-content;
 			margin-bottom: _size(element-margin);
 
 			> :first-child {
-				margin-bottom: 0;
-				width: calc(100% + 0.5em);
+				// margin-bottom: 0;
+				// width: calc(100% + 0.5em);
 
 				&:after {
 					content: '';
 					background-color: _palette(fg-bold);
 					display: block;
 					height: 1px;
-					margin: 0.325em 0 0.5em 0;
-					width: 100%;
+					margin: 1em 0 0.3em 0;
+					width: 30%;
 				}
 			}
 
