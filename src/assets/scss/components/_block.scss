@@ -1,0 +1,17 @@
+.block {
+    margin: 1rem auto;
+    max-width: 100rem;
+    &__top {}
+    &__copy {
+        max-width: 40rem;
+        background-color: _palette(bg);
+        padding: 1rem 2rem;
+        margin: -4rem auto 3rem auto;
+        position: relative;
+        z-index: 1;
+        width: 90%
+    }
+}
+.sha{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.051);
+}
