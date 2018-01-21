@@ -17,12 +17,13 @@
 
 		&.alt {
 			&:before {
-				background-color: _palette(fg-bold);
+				// background-color: _palette(fg-bold);
+				border:1px solid _palette(fg-bold);
 				border-radius: 100%;
-				color: _palette(bg);
+				color: _palette(fg);
 				display: inline-block;
 				height: 2em;
-				line-height: 2em;
+				line-height: 1.85em;
 				text-align: center;
 				width: 2em;
 			}

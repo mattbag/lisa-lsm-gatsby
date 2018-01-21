@@ -50,9 +50,9 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-phone"></span>
                         <h3>Telefono e Fax</h3>
-                        <span>Tel: +39 059641460</span>
+                        <span>Tel: +39 059 641 460</span>
                         <br/>
-                        <span>Fax: +39 059 6228465</span>
+                        <span>Fax: +39 059 622 8465</span>
                          
                     </div>
                 </section>
