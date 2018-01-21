@@ -6,7 +6,7 @@ const Banner = (props) => (
     textAlign:`center`}}>
         <div className="inner">
             <header>
-                <h1 style={{letterSpacing:4,marginBottom:`.7rem`}}>Love Sex Money</h1>
+                <h1 style={{letterSpacing:4,marginBottom:`.7rem`}}>L S M</h1>
                 <hr style={{width:`15%`, borderBottomColor: `#fff`,margin:`0 auto .7rem auto`}}/>
             </header>
             <div className="content" style={{textAlign:`center`}}>
