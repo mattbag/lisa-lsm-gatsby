@@ -1,11 +1,11 @@
 .block {
-    margin: 1rem auto;
+    margin: 0 auto;
     max-width: 100rem;
-    &__top {}
+    // &__top {}
     &__copy {
         max-width: 40rem;
         background-color: _palette(bg);
-        padding: 1rem 2rem;
+        padding: 1.4rem 2rem;
         margin: -4rem auto 3rem auto;
         position: relative;
         z-index: 1;
