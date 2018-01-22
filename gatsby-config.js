@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Love Sex Money",
+    title: "LSM Maglificio",
     author: "Matt Bagni",
-    description: "Love Sex Money"
+    description: "Love Sex Money LSM Maglificio"
   },
   pathPrefix: '/',
   plugins: [

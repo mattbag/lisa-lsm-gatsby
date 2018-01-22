@@ -34,7 +34,7 @@ class HomeIndex extends React.Component {
 export default HomeIndex
 
 export const pageQuery = graphql`
-    query PageQuery {
+    query IndexQuery {
         site {
             siteMetadata {
                 title
