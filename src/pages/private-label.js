@@ -6,7 +6,7 @@ import Block from '../components/Block'
 import Hero from '../components/Hero'
 
 import pic01 from '../assets/images/bg_1.jpg'
-import pic02 from '../assets/images/bg_2.jpg'
+import pic02 from '../assets/images/bg_4.jpg'
 import pic03 from '../assets/images/bg_3.jpg'
 // import pic02 from '../assets/images/bg_2.jpg'
 // import pic03 from '../assets/images/pic03.jpg'
