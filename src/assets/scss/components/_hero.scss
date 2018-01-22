@@ -1,0 +1,16 @@
+.hero{
+    position: relative;
+    &__copy{
+        position: absolute;
+        top:10vh;
+        left: 5%;
+        width: 40%;
+        padding: 2em;
+        background-color: #fff;
+        @include breakpoint(small) {
+width: 90%;
+left: 5%;
+top:90%
+        }
+    }
+}
