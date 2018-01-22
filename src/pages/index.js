@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import Banner from '../components/Banner'
 import Block from '../components/Block'
+import Pitti from '../components/pitti'
 
 import pic01 from '../assets/images/bg_1.jpg'
 import pic02 from '../assets/images/bg_2.jpg'
@@ -25,7 +26,7 @@ class HomeIndex extends React.Component {
                 </Helmet>
 
                 <Banner />
-
+<Pitti/>
             </div>
         )
     }

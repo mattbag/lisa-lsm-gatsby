@@ -1,8 +1,8 @@
 import React from 'react';
 const Pitti = ()=>
-    <section style={{backgroundColor:`rgba(255,255,255,0.7)`,maxWidth:`30rem`,margin:`1rem auto`}}>
+    <section style={{maxWidth:`30rem`,margin:`2rem auto`}}>
                         {/* <hr style={{borderBottomColor: `#000`, margin: `2rem auto 0 auto`, width:`20%`}}/> */}
-                        <div className="inner" style={{textAlign:`center`,padding:`2em`,paddingBottom:`.1em`}}>
+                        <div className="inner" style={{textAlign:`center`,padding:`2em 1em 0em 2em`}}>
                             <header className="">
                                 <h2>PITTI IMMAGINE FILATI</h2>
                             </header>

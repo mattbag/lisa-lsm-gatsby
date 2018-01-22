@@ -1,6 +1,6 @@
 import React from 'react'
 import cover from './../assets/images/made-in-italy.jpg'
-import Pitti from '../components/pitti'
+// import Pitti from '../components/pitti'
 
 
 const Banner = (props) => (
@@ -18,7 +18,7 @@ const Banner = (props) => (
                     <li><a href="#one" className="button next scrolly">Get Started</a></li>
                 </ul>
             </div> */}
-        <Pitti/>
+        {/* <Pitti/> */}
         </div>
     </section>
 )
