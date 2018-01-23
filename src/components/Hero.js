@@ -1,12 +1,14 @@
 import React from 'react'
-
-import pic01 from '../assets/images/bg_1.jpg'
+import Img from 'gatsby-image'
+// import pic01 from '../assets/images/bg_1.jpg'
 
 const Hero = (props) => (
     <article className="hero">
         <div className="hero__top">
             {/* <Link to="/generic" className="image"> */}
-                <img src={props.img} alt={props.title} width="100%" />
+                {/* <img src={props.img} alt={props.title} width="100%" /> */}
+
+            <Img sizes={props.img.sizes} alt={props.title}/>
             {/* </Link> */}
         <div className="hero__copy sha">
             <div className="content">

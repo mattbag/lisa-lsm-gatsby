@@ -1,9 +1,9 @@
 .hero {
   position: relative;
   margin-top: -3.25em;
-  @include breakpoint(large) {
-    margin-top: -2.75em;
-  }
+  // @include breakpoint(large) {
+  //   // margin-top: -2.75em;
+  // }
   &__copy {
     position: absolute;
     top: 20vh;

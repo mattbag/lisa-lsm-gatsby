@@ -1,5 +1,5 @@
 import React from 'react';
-const Pitti = ()=>
+export default ()=>
     <section style={{maxWidth:`30rem`,margin:`2rem auto`}}>
                         {/* <hr style={{borderBottomColor: `#000`, margin: `2rem auto 0 auto`, width:`20%`}}/> */}
                         <div className="inner" style={{textAlign:`center`,padding:`2em 1em 0em 2em`}}>
@@ -24,4 +24,3 @@ const Pitti = ()=>
                             {/* <hr style={{borderBottomColor: `#000`, margin: `1rem auto`, width:`20%`}}/> */}
                     </section>
 
-export default Pitti
