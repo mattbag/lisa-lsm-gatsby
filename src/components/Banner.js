@@ -1,14 +1,20 @@
 import React from 'react'
-import cover from './../assets/images/made-in-italy.jpg'
+// import cover from './../assets/images/made-in-italy.jpg'
+import Img from 'gatsby-image'
 // import Pitti from '../components/pitti'
 
 
 const Banner = (props) => (
-    <section id="banner" style={{backgroundImage:`url(${cover})`,
-    textAlign:`center`}}>
+    <section id="banner" style={{
+        backgroundImage:`url(${props.cover.sizes.originalImg})`,
+        textAlign: `center`
+    }}>
+        {/* <div style={{ position: `absolute`, height:`100%`,width:`100%`,top:0 }}>
+            <Img sizes={props.cover.sizes} style={{left:`auto`,right:`auto`,top:0,bottom:0}}/>
+        </div> */}
         <div className="inner">
-            <header style={{marginBottom:`12vh`}}>
-                <h1 style={{letterSpacing:`-2px`,marginBottom:`0`, fontSize: `6rem`, lineHeight: `5rem`}}>LSM</h1>
+            <header style={{ marginBottom: `12vh` }}>
+                <h1 style={{ letterSpacing: `-2px`, marginBottom: `0`, fontSize: `6rem`, lineHeight: `5rem` }}>LSM</h1>
                 <h4 className="f-serif">MAGLIFICIO</h4>
                 {/* <hr style={{width:`15%`, borderBottomColor: `#fff`,margin:`0 auto .7rem auto`}}/> */}
             </header>
@@ -18,7 +24,7 @@ const Banner = (props) => (
                     <li><a href="#one" className="button next scrolly">Get Started</a></li>
                 </ul>
             </div> */}
-        {/* <Pitti/> */}
+            {/* <Pitti/> */}
         </div>
     </section>
 )

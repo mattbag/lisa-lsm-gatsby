@@ -66,17 +66,17 @@ export const pageQuery = graphql`
         }
         pic1: imageSharp(id: {regex: "/bg_1.jpg/"}) {
             sizes {
-                ...GatsbyImageSharpSizes_tracedSVG
+                ...GatsbyImageSharpSizes
             }
         }
         pic2: imageSharp(id: {regex: "/bg_4.jpg/"}) {
             sizes {
-                ...GatsbyImageSharpSizes_tracedSVG
+                ...GatsbyImageSharpSizes
             }
         }
         pic3: imageSharp(id: {regex: "/bg_3.jpg/"}) {
             sizes {
-                ...GatsbyImageSharpSizes_tracedSVG
+                ...GatsbyImageSharpSizes
             }
         }
     }

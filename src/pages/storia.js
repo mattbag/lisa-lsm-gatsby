@@ -71,7 +71,7 @@ export const pageQuery = graphql`
         }
         pic1: imageSharp(id: {regex: "/bg_1.jpg/"}) {
             sizes {
-                ...GatsbyImageSharpSizes_tracedSVG
+                ...GatsbyImageSharpSizes
             }
         }
     }
