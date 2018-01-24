@@ -15,7 +15,8 @@ import Pitti from '../components/pitti'
 
 class HomeIndex extends React.Component {
     render() {
-        const {siteTitle, siteDescription, cover } = this.props.data
+        const {site, cover } = this.props.data
+        const {siteTitle,siteDescription} = site.siteMetadata
         // const siteDescription = this.props.data.site.siteMetadata.description
 
         return (
