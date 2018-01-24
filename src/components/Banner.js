@@ -1,7 +1,7 @@
 import React from 'react'
 // import cover from './../assets/images/made-in-italy.jpg'
 import Img from 'gatsby-image'
-// import Pitti from '../components/pitti'
+import Logo from './Logo'
 
 
 const Banner = (props) => (
@@ -13,11 +13,8 @@ const Banner = (props) => (
             <Img sizes={props.cover.sizes} style={{left:`auto`,right:`auto`,top:0,bottom:0}}/>
         </div> */}
         <div className="inner">
-            <header style={{ marginBottom: `12vh` }}>
-                <h1 style={{ letterSpacing: `-2px`, marginBottom: `0`, fontSize: `6rem`, lineHeight: `5rem` }}>LSM</h1>
-                <h4 className="f-serif">MAGLIFICIO</h4>
-                {/* <hr style={{width:`15%`, borderBottomColor: `#fff`,margin:`0 auto .7rem auto`}}/> */}
-            </header>
+        <Logo/>
+           
             {/* <div className="content" style={{textAlign:`center`}}>
                 <h4 className="f-serif">MAGLIFICIO</h4>
                 <ul className="actions">

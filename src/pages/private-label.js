@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 // import Banner from '../components/Banner'
-import Block from '../components/Block'
+// import Block from '../components/Block'
 import Hero from '../components/Hero'
 
 // import pic01 from '../assets/images/bg_1.jpg'
@@ -34,17 +34,17 @@ const { pic1, pic2,pic3} = this.props.data;
                    Partendo dai vostri input o prendendo spunto dai nostri campionari già creati, sviluppiamo e diamo forma e colore ai vostri prototipi portando alla lune la vostra idea di maglia. 
                    </p>
                 `}/>
-                <Block img={pic1} title={'Competenza e qualità'} copy={`
+                <Hero img={pic1} side={`rx`} title={'Competenza e qualità'} copy={`
                    <p>Siamo in grado di produrre ogni genere di maglia, sia essa sia calata, tagliata, ad intarsio o jacquard. <br/>
                    La ricerca dei materiali di qualità, sapientemente mixata alle idee, unite alla precisione artigianale da’ origine ad un qualcosa di unico: l’avanguardia industriale dell’artigianalità.
                    La personalizzazione è un passaggio fondamentale nella genesi del vostro prodotto, step che ne esalta in ogni aspetto le possibilità di riuscita dei vostri progetti. 
                    </p>
                 `}/>
-                <Block img={pic2} title={'Il capitale umano'} copy={`
+                <Hero img={pic2} title={'Il capitale umano'} copy={`
                    <p>
                    I nostri prodotti provengono dal lavoro e dalle conoscenze di professionisti e operatori motivati e competenti. Collaboratori diretti e indiretti, con i quali costruiamo rapporti di partnership costanti e duraturi basati sulla fiducia, capaci di trasformare semplici idee e materiali in splendide creazioni di maglia. Tutta la nostra produzione nasce dalla nostra terra, non abbiamo bisogno di importare o delocalizzare nulla dato che il distretto tessile di Carpi può vantare una delle migliori specializzazioni al mondo e noi ne siamo parte integrante. 
-<br/> I nostri prodotti sono tutti rigorosamente Made in Italy.
-</p>
+                    <br/> I nostri prodotti sono tutti rigorosamente Made in Italy.
+                    </p>
                 `}/>
                
                 </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 export default ()=>
-    <section style={{maxWidth:`30rem`,margin:`2rem auto`}}>
+    <section style={{maxWidth:`30rem`,margin:`0 auto 2rem auto`}}>
                         {/* <hr style={{borderBottomColor: `#000`, margin: `2rem auto 0 auto`, width:`20%`}}/> */}
                         <div className="inner" style={{textAlign:`center`,padding:`2em 1em 0em 2em`}}>
                             <header className="">

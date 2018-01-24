@@ -10,13 +10,13 @@ const Hero = (props) => (
 
             <Img sizes={props.img.sizes} alt={props.title}/>
             {/* </Link> */}
-        <div className="hero__copy sha">
+        <div className={`hero__copy sha hero__copy--${props.side}`}>
             <div className="content">
                 <div className="inner">
+                {props.title && 
                     <header className="major">
-                    <h3>{props.title}</h3>
-
-                    </header>
+                    <h3>{props.title }</h3>
+                    </header>}
                     
                     <div dangerouslySetInnerHTML={{__html:props.copy}} />
                    

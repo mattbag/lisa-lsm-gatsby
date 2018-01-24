@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import logo from './../assets/images/logo lsm maglificio.jpg'
+// import logo from './../assets/images/logo lsm maglificio.jpg'
+import Logo from './Logo';
 const Contact = (props) => (
     <section id="contact">
         <div className="inner" style={{maxWidth:`50em`}}>
@@ -26,7 +27,7 @@ const Contact = (props) => (
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-home"></span>
-                        <h3>Indirizzo</h3>
+                        <h3>Dove Siamo</h3>
                         <span>Sede Operativa: Viale dell'Agricoltura, 21 Carpi (MO)</span>
                         <br/>
                         <span>Sede Legale: Via Meloni di Quartirolo, 6 Carpi (MO)</span>
@@ -58,7 +59,9 @@ const Contact = (props) => (
                 </section>
                 <section>
 
-                       <Link to="/" style={{textDecoration:`none`}}><img src={logo} width="160"/></Link>
+                       <Link to="/" style={{textDecoration:`none`}}>
+<Logo/>
+                       </Link>
 
                 </section>
             </section>

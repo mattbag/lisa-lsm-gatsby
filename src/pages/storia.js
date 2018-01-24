@@ -27,7 +27,7 @@ class StoryIndex extends React.Component {
                 {/* <Banner /> */}
 
                 <div id="main">
-                <Hero img={this.props.data.pic1} title={'Competenza e qualità'} copy={`
+                <Hero img={this.props.data.pic1} copy={`
                <p>Collezioni all’insegna di femminilità ed eleganza, stile e raffinatezza, attenzione e cura per i dettagli, ricercatezza di materiali, stampe e ricami. Questo è il maglificio LSM.</p>
                <p>
                Nato nel 1986 a Carpi, il distretto italiano da sempre tra i più prolifici per qualità, creatività ed intraprendenza, gestito da un team giovane che da’ un’impronta ambiziosa e rivolta al futuro e che basa le sue fondamenta su un concept unico ed originale di stile e ricercatezza fondate sul Made in Italy. Ogni singolo capo nasce da una cura artigianale inimitabile, caratterizzata dalla scelta di filati nobili e dalla capacità di trasformarli grazie ad un grande know how tecnologico. Le infinite potenzialità della maglia vengono quindi sviluppate con uno stile che segue le ultime tendenze, insieme ad una solida organizzazione produttiva nel pieno rispetto dell’artigianalità e territorialità del prodotto.</p>
@@ -69,7 +69,7 @@ export const pageQuery = graphql`
                 description
             }
         }
-        pic1: imageSharp(id: {regex: "/bg_1.jpg/"}) {
+        pic1: imageSharp(id: {regex: "/bg_2.jpg/"}) {
             sizes {
                 ...GatsbyImageSharpSizes
             }
