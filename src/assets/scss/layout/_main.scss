@@ -8,9 +8,9 @@
 
 #main {
   // background-color: _palette(bg-alt);
-  opacity: 0;
+  // opacity: 0;
   // animation: loading 2s 0s forwards;
-  @include vendor('animation', 'loading 1s 0s forwards');
+  // @include vendor('animation', 'loading 1s 0s forwards');
   // @include vendor('transform', 'translateX(-0.5em)');
   // opacity: 0;
   >* {
